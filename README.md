@@ -1,4 +1,3 @@
-# TargetFruitShot_Showcase
 
 # PixelFruitShot (TargetShot) 🎯
 
@@ -34,9 +33,8 @@ Unity ile geliştirilmiş; gelişmiş oyun mekaniklerine, bulut tabanlı veri se
 * **Eklentiler / Kütüphaneler:** Google Sign-In for Unity, TextMeshPro
 
 ## 🧠 Mimari & Tasarım Kalıpları
-* **Singleton Pattern:** Temel sistemlerin (`ScoreManager`, `UserDataManager`, `SeviyeYoneticisi`, `TakasYoneticisi`) oyun yaşam döngüsü boyunca tekil (single-instance) olarak kalması ve veri bütünlüğü için kullanıldı.
-* **Event-Driven UI (Olay Yönelimli UI):** UI bileşenlerinin her frame güncellenmesi (Update) yerine, veriler değiştikçe tetiklenmesi sağlandı (`UserDataManager` içindeki `onVeriGuncellendi` Action kullanımı).
-* **Modüler Kod Tabanı:** Mekanikler birbirinden izole edildi (Örn: `KnifeThrow` sadece fiziği, `TargetLog` düşman mantığını, `ScoreManager` oyun durumunu yönetir).
+* Temel sistemlerin (`ScoreManager`, `UserDataManager`, `SeviyeYoneticisi`, `TakasYoneticisi`) oyun yaşam döngüsü boyunca tekil (single-instance) olarak kalması ve veri bütünlüğü için kullanıldı.
+* Mekanikler birbirinden izole edildi (Örn: `KnifeThrow` sadece fiziği, `TargetLog` düşman mantığını, `ScoreManager` oyun durumunu yönetir).
 
 
 
